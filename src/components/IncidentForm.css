@@ -1,0 +1,29 @@
+.incident-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.incident-form input,
+.incident-form textarea,
+.incident-form select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.incident-form button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.incident-form button:hover {
+  background: #0056b3;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
